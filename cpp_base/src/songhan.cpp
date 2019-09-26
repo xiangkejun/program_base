@@ -11,9 +11,9 @@ int main()
     // if(x=-1) printf("%d\n", x);   // -1
 
 
-    // long b = 73;
-    // long *a = &b;
-    // printf("%x,%x",*a,b);  // 16进制结果  49 49
+    long b = 73;
+    long *a = &b;
+    printf("%x,%x",*a,a);  // 转到16进制 49,2836c5f8
 
     // char *sz1 = (char *)"abcde";
     // char sz2[12] = "abcde";
@@ -30,9 +30,9 @@ int main()
     // cout<<sizeof(int)<< endl;   //4
     // cout<<sizeof(float) <<endl;   //4
 
-    int n=1,b;
-    b=++n+n++;
-    cout<<b<<endl;  //5
+    // int n=1,b;
+    // b=++n+n++;
+    // cout<<b<<endl;  //5
     
 
 
