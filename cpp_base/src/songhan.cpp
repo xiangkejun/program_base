@@ -13,7 +13,7 @@ int main()
 
     // long b = 73;
     // long *a = &b;
-    // printf("%x,%x",*a,b);  // 49 49
+    // printf("%x,%x",*a,b);  // 16进制结果  49 49
 
     // char *sz1 = (char *)"abcde";
     // char sz2[12] = "abcde";
